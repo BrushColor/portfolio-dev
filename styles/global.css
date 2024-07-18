@@ -30,16 +30,52 @@
   --font-tertiary: "Inconsolata", monospace;
 }
 
+body {
+  background-color: var(--gray-200);
+}
 
 h1 {
-  font: bold 3.5rem/1.2 var(--font-secondary);
+  font: bold 3.5rem / 1.2 var(--font-secondary);
   color: var(--gray-600);
 }
 
 h2 {
-  font: bold 2rem/1.2 var(--font-secondary);
+  font: bold 1.5rem / 1.2 var(--font-secondary);
 }
 
 h3 {
-  font: bold 1rem/1.2 var(--font-secondary);
-} 
+  font: bold 1rem / 1.2 var(--font-secondary);
+}
+
+.Subtitle {
+    font: 1.25rem / 1.2 var(--font-tertiary);
+    color: var(--gray-500);
+    margin-bottom: 0.5rem;
+
+    span {
+      color: var(--color-red);
+    }
+}
+
+  .heading {
+    text-align: center;
+  
+    p {
+      color: var(--color-red);
+      
+    }
+
+    h2 {
+      color: var(--gray-600);
+      margin-bottom: 3.5rem;
+    }
+  }
+
+::-webkit-scrollbar {
+  width: 0.5rem;  
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-green);
+  border-radius: 0.5rem; 
+}
